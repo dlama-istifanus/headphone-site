@@ -1,0 +1,1257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* first-section */
+#first-section{
+    background: linear-gradient(135deg, hsla(45, 25%, 97%, 1) 35%, hsla(264, 62%, 76%, 1) 80%, hsla(289, 54%, 55%, 1) 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 71%);
+}
+#first-section #fs-body{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+/* top-header */
+#first-section #fs-body #top-header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#first-section #fs-body #top-header #menu{
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+#first-section #fs-body #top-header #menu #logo{
+    width: 30%;
+}
+#first-section #fs-body #top-header #menu #logo i{
+    color: #6066F2;
+    font-size: 68px;
+}
+#first-section #fs-body #top-header #menu #menu-li{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+   align-self: center;
+   
+}
+#first-section #fs-body #top-header #menu #menu-li a{
+    text-decoration: none;
+    color: #6066F2;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+ }
+
+
+#first-section #fs-body #top-header #btns{
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#first-section #fs-body #top-header #btns button{
+    border: none;
+    width: 128px;
+    height: 36px;
+    text-align: center;
+    padding: 0 18px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 11px;
+    border-radius: 20px;
+    box-shadow: 3px 7px 5px -1px rgba(0,0,0,0.18);
+}
+#first-section #fs-body #top-header #btns #blue-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6066F2;
+}
+#first-section #fs-body #top-header #btns #orange-btn{
+    background-color: #FEA83B;
+}
+#first-section #fs-body #top-header .drop-menu{
+    width: 50%;
+    background-color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 31%;
+    border-radius: 8px;
+    box-shadow: -1px 2px 17px -2px rgb(0 0 0 / 72%);
+    display: none;
+}
+#first-section #fs-body #top-header .drop-menu ul li{
+    list-style: none;
+    padding:30px 0;
+    border-bottom: solid 1px rgba(175, 175, 175, 0.358);
+}
+#first-section #fs-body #top-header .drop-menu li a{
+    text-decoration: none;
+    color: #6066F2;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: 1s ease;
+}
+#first-section #fs-body #top-header .drop-menu li a:hover{
+    font-size: 16px;
+}
+#first-section #fs-body #top-header label #side-menu{
+    width: 5%;
+    text-align: center;
+}
+#first-section #fs-body #top-header #side-menu{
+    display: none;
+}
+#first-section #fs-body #top-header label .fa-bars,#first-section #fs-body #top-header label .fa-times{
+    cursor: pointer;
+    color: #6066F2;
+    font-size: 30px;
+    display: none;
+}
+
+#first-section #fs-body #top-header #side-menu:checked ~  .drop-menu{
+    display: none;
+}
+
+/* first-section body */
+#top-body{
+    display: flex;
+    justify-content: space-between;
+    margin-right: -50px;
+    padding-bottom: 200px;
+}
+
+/* left-side */
+#top-body #left-side{
+    width: 40%;
+    padding: 150px 2px 9px 9px;
+    margin-left: 100px;
+}
+#top-body #left-side h1{
+    font-size: 54px;
+    color: #6066F2;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    line-height: 56px;
+}
+#top-body #left-side p{
+    width: 75%;
+    color: gray;
+    font-family: sans-serif;
+    padding: 20px 0;
+}
+#snd-mail{
+    width: 78%;
+    margin: 30px 0;
+    padding: 10px 10px;
+    border-radius: 60px;
+    box-shadow: -1px 2px 17px -2px rgba(0,0,0,0.72);
+
+}
+#snd-mail .fa-envelope{
+    color: rgb(155, 153, 153);
+    padding: 0 10px;
+
+}
+#snd-mail #mail{
+    border: none;
+    background-color: #ffffff00;
+}
+ #snd-mail #mail:focus{
+    outline: none;
+}
+
+#snd-mail #send-btn{
+    border: none;
+    padding: 13px 35px;
+    border-radius: 50px;
+    margin-left: 71px;
+    color: #ffffff;
+    background-color: #6066F2;
+    font-weight: 300;
+    font-size: 12px;
+}
+/* right-side */
+#top-body #right-side{
+    display: fixed;
+    width: 60%;
+    margin-top: -40px;
+    margin-left: -100px;
+}
+#top-body #right-side img{
+    width: 100%;
+}
+
+/* top-section bottom */
+#top-section-buttom{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    position: relative;
+    top: -280px;
+}
+#top-section-buttom #left-side{
+    width: 40%;
+    background-color: rgb(79, 83, 216);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 30px 45px;
+    position: relative;
+    overflow: hidden;
+}
+#top-section-buttom #left-side .bg-image{
+    position: absolute;
+    z-index: 1;
+    top: -160px;
+    left: 105px;
+    width: 700px;
+    opacity: 0.6;
+}
+#top-section-buttom #left-side h2{
+     color: #FEA83B;
+     font-size: 16px;
+     padding-top: 20px;
+     z-index: 2;
+     position: relative;
+}
+#top-section-buttom #left-side h1{
+    color: #ffffff;
+    font-size: 35px;
+    padding: 30px 0;
+    z-index: 2;
+    position: relative;
+}
+#top-section-buttom #left-side ul{
+    list-style: none;
+    color: #ffffff;
+    font-size: 15px;
+    z-index: 2;
+    position: relative;
+}
+#top-section-buttom #left-side ul li{
+    padding-bottom: 20px;
+    display: flex;
+    align-content: center;
+    z-index: 2;
+}
+#top-section-buttom #left-side ul li input[type=checkbox]{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #FEA83B;
+    border-radius: 10px;
+    margin-right: 15px;
+    position: relative;
+}
+#top-section-buttom #left-side ul li input[type=checkbox]:checked::after{
+    font-family: "Font Awesome 5 free";
+    content: "\f00c";
+    font-weight: bolder;
+    position: absolute;
+    color: #ffffff;
+    top: 3px;
+    left: 2px;
+}
+#top-section-buttom #left-side #more{
+    margin-top: 40px;
+    color: #6066F2;
+    font-weight: bolder;
+    padding: 18px 60px;
+    border-radius: 40px;
+    border: none;
+    z-index: 2;
+    position: relative;
+}
+
+/* right side */
+#top-section-buttom #right-side{
+    display: flex;
+    flex-wrap: wrap;  
+    width: 60%;
+    background-color: #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+#top-section-buttom #right-side #icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #6066F2;
+    background-color: #ffffff;
+    width: 49%;
+    height: 50%;
+}
+#top-section-buttom #right-side #icon p{
+    font-weight: bold;
+}
+#top-section-buttom #right-side #icon i{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+#top-section-buttom #right-side #refresh-icon{
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    background-color: #ffffff;
+    box-shadow: -1px 2px 17px -2px rgba(0,0,0,0.72);
+    padding: 10px;
+    border-radius: 30px;
+}
+#top-section-buttom #right-side #refresh-icon i{
+    font-size: 35px;
+    color: #FEA83B;
+}
+
+/* second section */
+#second-section #ss-body{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: -250px;
+    justify-content: space-between;
+    margin-bottom: -150px;
+}
+
+/* left-side */
+#second-section #ss-body #left-side{
+    width: 50%;
+}
+#second-section #ss-body #left-side img{
+    width: 750px;
+    transform: scaleX(-1);
+    margin-left: -180px;
+}
+/* right-side */
+#second-section #ss-body #right-side{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#second-section #ss-body #right-side #color-collect{
+    width: 60%;
+    text-align: center;
+    justify-items: center;
+    margin-left: 100px;
+}
+#second-section #ss-body #right-side #three-color-container{
+    background-color: #ffffff;
+    box-shadow: 0px 2px 42px -14px rgba(0,0,0,0.49);
+    width: 90%;
+    height: 95px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+#second-section #ss-body #right-side #three-color-container #circle{
+    width: 25%;
+    height: 70%;
+    background-color: blue;
+    border-radius: 300px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.28);
+}
+#second-section #ss-body #right-side #three-color-container #circle:nth-child(1){
+    background: hsla(238, 85%, 66%, 1);
+    background: linear-gradient(127deg, hsla(238, 85%, 66%, 1) 0%, hsla(300, 28%, 60%, 1) 39%, hsla(338, 70%, 57%, 1) 100%);
+}
+#second-section #ss-body #right-side #three-color-container #circle:nth-child(2){
+    background: hsla(280, 79%, 59%, 1);
+    background: linear-gradient(90deg, hsla(280, 79%, 59%, 1) 0%, hsla(296, 80%, 71%, 1) 100%);
+}
+#second-section #ss-body #right-side #three-color-container #circle:nth-child(3){
+    background: hsla(298, 99%, 73%, 1);
+    background: linear-gradient(123deg, hsla(298, 99%, 73%, 1) 0%, hsla(2, 95%, 77%, 1) 16%, hsla(34, 99%, 61%, 1) 58%, hsla(182, 80%, 71%, 1) 100%);
+}
+#second-section #ss-body #right-side #explore-collection{
+    width: 90%;
+    box-shadow: 0px 2px 42px -14px rgba(0,0,0,0.49);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    margin-top: 40px;   
+    font-family: sans-serif;
+}
+#second-section #ss-body #right-side #explore-collection h1{
+    font-size: 36px;
+}
+#second-section #ss-body #right-side #explore-collection h1:nth-child(1){
+    color: #FEA83B;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 100;
+}
+#second-section #ss-body #right-side #explore-collection h1:nth-child(2){
+    color: #6066F2;
+    font-weight: 700;
+}
+#second-section #ss-body #right-side #explore-collection h1:nth-child(3){
+    color: rgba(218, 57, 218, 0.719);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 100;
+}
+#second-section #ss-body #right-side #explore-collection p{
+    font-size: 15px;
+    padding: 30px 0;
+    color: gray;
+}
+#second-section #ss-body #right-side #explore-collection a{
+    text-decoration: none;
+    color: #6066F2;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+}
+#second-section #ss-body #right-side #explore-collection a::after{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #6066F2;
+    bottom: 0;
+    left: 20px;
+    top: 35px;
+    transition: linear 1s;
+}
+#second-section #ss-body #right-side #explore-collection a:hover::after{
+    transform: scaleX(1.5);
+}
+#second-section #ss-body #right-side #color-picker{
+    width: 20px;
+    height: 80%;
+    background: hsla(298, 99%, 73%, 1);
+    background: linear-gradient(176deg, hsla(298, 99%, 73%, 1) 4%, hsla(34, 99%, 61%, 1) 24%, hsla(309, 16%, 58%, 1) 41%, hsla(238, 85%, 66%, 1) 62%, hsla(204, 82%, 69%, 1) 80%, hsla(295, 80%, 71%, 1) 90%);
+    margin-top: -80px;
+    border-radius: 10px;
+    position: relative;
+}
+#second-section #ss-body #right-side #color-picker #inner-circle{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 254, 253, 0);
+    margin: 0 auto;
+    margin-top: 130px;
+    border-radius: 30px;
+    border: solid 9px #ffffff;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.28);
+    margin-left: -6px;
+}
+
+/* third-section */
+#third-section{
+    background-color: #554BD3;
+    padding-bottom: 170px;
+}
+#third-section #ts-body{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+#third-section #ts-body #left-side{
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+#third-section #ts-body #left-side img{
+    width: 200px;
+    height: 430px;
+}
+#third-section #ts-body #right-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#third-section #ts-body #right-side h1{
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 53px;
+    font-weight: bolder;
+}
+
+/* bluetooth info */
+
+#third-section #ts-body #right-side #bluetooth{
+    display: flex;
+    width: 79%;
+    padding: 53px 0;
+}
+#third-section #ts-body #right-side #bluetooth-icon{
+   width: 30%;
+   border: solid 3px #ffffff;
+   text-align: center;
+   padding: 10px 0;
+   border-radius: 300px;
+   border-right: solid 5px #FEA83B;
+}
+#third-section #ts-body #right-side #bluetooth-icon i{
+    color: #ffffff;
+    font-size: 70px;
+    border: dashed thin rgba(202, 201, 201, 0.87);
+    border-width: 2px;
+    padding: 13px 27px;
+    border-radius: 200px;
+}
+#third-section #ts-body #right-side #bluetooth #info{
+    margin-left: 30px;
+    align-self: center;
+    color: #ffffff;
+}
+#third-section #ts-body #right-side #bluetooth #info h2{
+    font-size: 30px;
+}
+#third-section #ts-body #right-side #bluetooth #info p{
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 6px 0;
+}
+#third-section #ts-body #right-side #bluetooth #info a{
+    text-decoration: none;
+    color: #FEA83B;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* microphone infp */
+
+#third-section #ts-body #right-side #microphone{
+    display: flex;
+    width: 79%;
+}
+#third-section #ts-body #right-side #microphone-icon{
+   width: 30%;
+   border: solid 3px #ffffff;
+   text-align: center;
+   padding: 10px 0;
+   border-radius: 300px;
+   border-right: solid 5px #E67AF0;
+   border-bottom: solid 5px #E67AF0;
+}
+#third-section #ts-body #right-side #microphone-icon i{
+    color: #ffffff;
+    font-size: 68px;
+    border: dashed thin rgba(202, 201, 201, 0.87);
+    border-width: 2px;
+    padding: 16px 27px;
+    border-radius: 200px;
+}
+#third-section #ts-body #right-side #microphone #info{
+    margin-left: 30px;
+    align-self: center;
+    color: #ffffff;
+}
+#third-section #ts-body #right-side #microphone #info h2{
+    font-size: 30px;
+}
+#third-section #ts-body #right-side #microphone #info p{
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 6px 0;
+}
+#third-section #ts-body #right-side #microphone #info a{
+    text-decoration: none;
+    color: #E67AF0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* fourth-section */
+#fourth-section #fs-body{
+    width: 75%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -80px;
+}
+#fourth-section #fs-body #fs-top{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+#fourth-section #fs-body #fs-top h1{
+    color: #6066F2;
+    font-size: 40px;
+    line-height: 40px;
+}
+#fourth-section #fs-body #fs-top #pointer{
+    display: flex;
+    width: 26%;
+    color: #ffffff;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+}
+#fourth-section #fs-body #fs-top #point-left{
+    width: 50%;
+    background-color: #6066F2;
+    border: solid 1px #6066F2;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#fourth-section #fs-body #fs-top #point-right{
+    width: 50%;
+    color: grey;
+    border: solid 1px rgba(175, 175, 175, 0.658);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#fourth-section #fs-body #fs-middle{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 0;
+}
+#fourth-section #fs-body #fs-middle #buy-headphone{
+    width: 28%;
+    text-align: center;
+}
+#fourth-section #fs-body #fs-middle #buy-headphone #headphone-img{
+    width: 100%;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    position: relative;
+}
+#fourth-section #fs-body #fs-middle #buy-headphone:nth-child(1) #headphone-img{
+    background: hsla(238, 85%, 66%, 1);
+    background: linear-gradient(127deg, hsla(238, 85%, 66%, 1) 0%, hsla(300, 28%, 60%, 1) 39%, hsla(338, 70%, 57%, 1) 100%);
+
+}
+#fourth-section #fs-body #fs-middle #buy-headphone:nth-child(2) #headphone-img{
+    background: hsla(280, 79%, 59%, 1);
+    background: linear-gradient(90deg, hsla(280, 79%, 59%, 1) 0%, hsla(296, 80%, 71%, 1) 100%);
+}
+#fourth-section #fs-body #fs-middle #buy-headphone:nth-child(3) #headphone-img{
+    background: hsla(298, 99%, 73%, 1);
+    background: linear-gradient(123deg, hsla(298, 99%, 73%, 1) 0%, hsla(2, 95%, 77%, 1) 16%, hsla(34, 99%, 61%, 1) 58%, hsla(182, 80%, 71%, 1) 100%);
+}
+#fourth-section #fs-body #fs-middle #buy-headphone #headphone-img img{
+    width: 300px;
+    margin-top: -80px;
+}
+#fourth-section #fs-body #fs-middle #buy-headphone #headphone-img #cart{
+    position: absolute;
+    padding: 10px 12px;
+    border-radius: 100px;
+    font-size: 23px;
+    top: 0;
+    margin-top: -20px;
+    left: 260px;
+    border: solid 7px #ffffff;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+#fourth-section #fs-body #fs-middle #buy-headphone:nth-child(1) #headphone-img #cart{
+    background: hsla(238, 85%, 66%, 1);
+    background: linear-gradient(127deg, hsla(238, 85%, 66%, 1) 0%, hsla(300, 28%, 60%, 1) 39%, hsla(338, 70%, 57%, 1) 100%);
+}
+#fourth-section #fs-body #fs-middle #buy-headphone:nth-child(2) #headphone-img #cart{
+    background: hsla(280, 79%, 59%, 1);
+    background: linear-gradient(90deg, hsla(280, 79%, 59%, 1) 0%, hsla(296, 80%, 71%, 1) 100%);
+}
+#fourth-section #fs-body #fs-middle #buy-headphone:nth-child(3) #headphone-img #cart{
+    background: hsla(298, 99%, 73%, 1);
+    background: linear-gradient(123deg, hsla(298, 99%, 73%, 1) 0%, hsla(2, 95%, 77%, 1) 16%, hsla(34, 99%, 61%, 1) 58%, hsla(182, 80%, 71%, 1) 100%);
+}
+
+#fourth-section #fs-body #fs-middle #buy-headphone hr{
+    margin: 40px auto;
+    width: 33%;
+    
+}
+#fourth-section #fs-body #fs-middle #buy-headphone h1{
+   font-size: 31px;
+   margin-top: -20px;
+}
+#fourth-section #fs-body #fs-middle #buy-headphone:nth-child(1) hr{
+    border-color: #FEA83B;
+}
+#fourth-section #fs-body #fs-middle #buy-headphone:nth-child(2) hr{
+   border-color: #554BD3;
+}
+#fourth-section #fs-body #fs-middle #buy-headphone:nth-child(3) hr{
+   border-color: rgb(8, 223, 223);
+}
+
+#fourth-section #fs-body #fs-middle #buy-headphone:nth-child(1) h1{
+    color: #FEA83B;
+}
+#fourth-section #fs-body #fs-middle #buy-headphone:nth-child(2) h1{
+   color: #554BD3;
+}
+#fourth-section #fs-body #fs-middle #buy-headphone:nth-child(3) h1{
+   color: rgb(14, 177, 177);
+}
+
+/* fprth-section bottom */
+#fourth-section #fs-body #fs-buttom{
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+#fourth-section #fs-body #fs-buttom h1{
+    color: #554BD3;
+    font-size: 40px;
+}
+#fourth-section #fs-body #fs-buttom #contact{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+#fourth-section #fs-body #fs-buttom #contact #snd-contact{
+    width: 40%;
+    margin: 30px 0;
+    text-align: left;
+    border-radius: 60px;
+    box-shadow: -1px 2px 17px -2px rgba(0,0,0,0.72);
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    background-color: #ffffff;
+}
+#fourth-section #fs-body #fs-buttom #contact #snd-contact .fa-envelope{
+    color: rgb(155, 153, 153);
+    padding-right: 15px;
+}
+#fourth-section #fs-body #fs-buttom #contact #snd-contact #mail{
+    border: none;
+    background-color: #ffffff00;
+}
+#fourth-section #fs-body #fs-buttom #contact #snd-contact #mail:focus{
+    outline: none;
+}
+
+#fourth-section #fs-body #fs-buttom #contact #snd-mail{
+    width: 46%;
+    margin-right: 25px;
+    background-color: #ffffff;
+}
+#fourth-section #fs-body #fs-buttom #contact #snd-mail #send-btn{
+    margin-left: 51px;
+}
+
+#fourth-section #fs-body #fs-buttom img{
+    position: absolute;
+    left: 150px;
+    top: -150px;
+    transform: rotate(25deg);
+    z-index: -1;
+    filter: grayscale(130%) invert(150%);  
+    opacity: 0.3;
+}
+
+/* footer-section */
+#footer-section{
+    text-align: center;
+    background-color: #554BD3;
+    font-family: sans-serif;
+    margin-top: -90px;
+    padding-bottom: 30px;
+}
+#footer-section h1{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: lighter;
+    padding: 20px 0;
+}
+#footer-section h1 span{
+    color: #FEA83B;
+    font-weight: bold;
+}
+#footer-section #links a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 0 10px;
+    font-weight: bolder;
+}
+#footer-section p{
+    color: #ffffff;
+    font-size: 11px;
+    padding: 20px 0;
+}
+#footer-section #social a{
+    text-decoration: none;
+    color: #ffffff8c;
+    padding: 0 16px;
+    font-size: 20px;
+}
+
+/* tablet mode */
+@media(max-width:1024px){
+     /* top-header */
+     #first-section #fs-body #top-header #menu #logo i {
+        font-size: 48px;
+    }
+    #first-section #fs-body #top-header #menu #menu-li {
+        display: none;
+    }
+    #first-section #fs-body #top-header #btns {
+        display: none;
+    }
+    #first-section #fs-body #top-header .drop-menu{
+        display: none;
+    }
+    #first-section #fs-body #top-header label .fa-bars{
+        display: block;
+    }
+    
+    #first-section #fs-body #top-header #side-menu:checked ~  .drop-menu{
+        display: block;
+    }
+    #first-section #fs-body #top-header #side-menu:checked ~ label .fa-times{
+        display: block;
+    }
+    #first-section #fs-body #top-header #side-menu:checked ~ label .fa-bars{
+        display: none;
+    }
+    /* top-body */
+    #top-body {
+        display: flex;
+        flex-direction: column;
+    }
+    #top-body #left-side {
+        width: 100%;
+        text-align: center;
+        margin-top: -50px;
+        justify-content: center;
+        margin-left: 0;
+        padding: 100px 0 0 0;
+    }
+    #top-body #left-side h1 {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 36px;
+        line-height: 36px;
+    }
+    #top-body #left-side p{
+        margin: 0 auto;
+    }
+    #top-body #right-side {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #snd-mail {
+        width: 261px;
+        margin: 30px auto;
+        padding: 10px 0;
+    }
+    #snd-mail .fa-envelope {
+        padding: 0px 8px;
+    }
+    #snd-mail #send-btn {
+        padding: 10px 25px;
+        margin-left: -50px;
+        font-size: 12px;
+    }
+    /* second-section */
+    #second-section{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #second-section #ss-body {
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: -100px;
+    }
+    #second-section #ss-body #left-side {
+        width: 100%;
+    }
+    #second-section #ss-body #left-side img {
+        width: 100%;
+        margin-left: 0;
+    }
+    #second-section #ss-body #right-side {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    #second-section #ss-body #right-side #color-picker {
+        width: 75%;
+        height: 20px;
+        margin: 0 auto;
+        margin-top: -80px;
+        border-radius: 10px;
+        position: relative;
+    }
+    #second-section #ss-body #right-side #color-picker #inner-circle{
+        margin-top: -8px;
+        margin-left: 40px;
+    }
+    #second-section #ss-body #right-side #color-collect{
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        justify-items: center;
+    }
+    #second-section #ss-body #right-side #three-color-container {
+        width: 62%;
+        height: 6vh;
+        margin-top: 40px;
+    }
+    #second-section #ss-body #right-side #explore-collection h1{
+        font-size: 4vw;
+    }
+    #second-section #ss-body #right-side #explore-collection p{
+        font-size: 4vw;
+    }
+    #second-section #ss-body #right-side #explore-collection a{
+        font-size: inherit;
+    }
+     /* third-section */
+    #third-section #ts-body {
+        position: relative;
+    }
+    #third-section #ts-body #left-side {
+        width: 100%;
+        position: absolute;
+    }
+    #third-section #ts-body #left-side img{
+        width: 125px;
+    }
+    #third-section #ts-body #right-side h1 {
+        font-size: 300%;
+        line-height: 2.8rem;
+        margin: 0 auto;
+    }
+    #third-section #ts-body #right-side {
+        width: 100%;
+        position: relative;
+        top: 20px;
+    }
+    #third-section #ts-body #right-side #bluetooth-icon{
+        border: none;
+    }
+    #third-section #ts-body #right-side #bluetooth-icon i {
+        border: none;
+    }
+    #third-section #ts-body #right-side #microphone-icon{
+        border: none;
+    }
+    #third-section #ts-body #right-side #microphone-icon i {
+        border: none;
+    }
+    /* fourth-section */
+    #fourth-section #fs-body #fs-top h1 {
+        margin: 0 auto;
+    }
+    #fourth-section #fs-body #fs-top #pointer {
+        display: none;
+    }
+    #fourth-section #fs-body #fs-middle {
+        flex-direction: column;
+    }
+    #fourth-section #fs-body #fs-middle #buy-headphone {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    #fourth-section #fs-body #fs-middle #buy-headphone #headphone-img img {
+        width: 100%;
+    }
+    #fourth-section #fs-body #fs-middle #buy-headphone #headphone-img #cart {
+       left: 95%;
+    }
+    #fourth-section #fs-body #fs-middle #buy-headphone h1 {
+        font-size: 3vh
+    }
+    
+    #fourth-section #fs-body #fs-buttom img {
+        display: none;
+    }
+    #fourth-section #fs-body #fs-buttom #contact {
+        display: block;
+        width: 100%;
+    }
+    #fourth-section #fs-body #fs-buttom #contact #snd-contact {
+        width: 80%;
+        margin: 20px auto;
+        padding: 4% 0;;
+    }
+    #fourth-section #fs-body #fs-buttom #contact #snd-mail {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #snd-mail #mail {
+        width: 50%;
+    }
+    #fourth-section #fs-body #fs-buttom #contact #snd-mail #send-btn {
+        padding: 5% 10%;
+        margin-left: -1%;
+        font-size: 9px;
+    }
+    #fourth-section #fs-body #fs-buttom #contact .fa-envelope {
+       padding: 0 20px;
+    }
+}
+
+/* mobile mode */
+@media(max-width:767px){
+    /* top-header */
+    #first-section #fs-body #top-header #menu #logo i {
+        font-size: 48px;
+    }
+    #first-section #fs-body #top-header #menu #menu-li {
+        display: none;
+    }
+    #first-section #fs-body #top-header #btns {
+        display: none;
+    }
+    #first-section #fs-body #top-header .drop-menu{
+        display: none;
+    }
+    #first-section #fs-body #top-header label .fa-bars{
+        display: block;
+    }
+    
+    #first-section #fs-body #top-header #side-menu:checked ~  .drop-menu{
+        display: block;
+    }
+    #first-section #fs-body #top-header #side-menu:checked ~ label .fa-times{
+        display: block;
+    }
+    #first-section #fs-body #top-header #side-menu:checked ~ label .fa-bars{
+        display: none;
+    }
+    /* top-body */
+    #top-body {
+        display: flex;
+        flex-direction: column;
+    }
+    #top-body #left-side {
+        width: 100%;
+        text-align: center;
+        margin-top: -50px;
+        justify-content: center;
+        margin-left: 0;
+        padding: 100px 0 0 0;
+    }
+    #top-body #left-side h1 {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 36px;
+        line-height: 36px;
+    }
+    #top-body #left-side p{
+        margin: 0 auto;
+    }
+    #top-body #right-side {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #top-body #right-side img{
+        width: 100%;
+    }
+    #snd-mail {
+        width: 261px;
+        margin: 30px auto;
+        padding: 10px 0;
+    }
+    #snd-mail .fa-envelope {
+        padding: 0px 8px;
+    }
+    #snd-mail #send-btn {
+        padding: 10px 25px;
+        margin-left: -50px;
+        font-size: 12px;
+    }
+    /* top-section-buttom */
+    #top-section-buttom {
+        flex-direction: column;
+        width: 100%;
+    }
+    #top-section-buttom #left-side {
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px 10px;
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #top-section-buttom #right-side {
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #top-section-buttom #right-side #icon {
+        border: solid 1px rgb(211, 208, 208);
+        padding: 50px 0;
+    }
+    #top-section-buttom #right-side #icon i {
+        font-size: 30px;
+    }
+    #top-section-buttom #right-side #icon p {
+        font-size: 14px;
+    }
+    #top-section-buttom #right-side #refresh-icon{
+        left: 45%;
+    }
+    #top-section-buttom #right-side #refresh-icon i {
+        font-size: 25px;
+    }
+    /* second-section */
+    #second-section{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #second-section #ss-body {
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: -100px;
+    }
+    #second-section #ss-body #left-side {
+        width: 100%;
+    }
+    #second-section #ss-body #left-side img {
+        width: 100%;
+        margin-left: 0;
+    }
+    #second-section #ss-body #right-side {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    #second-section #ss-body #right-side #color-picker {
+        width: 75%;
+        height: 20px;
+        margin: 0 auto;
+        margin-top: -80px;
+        border-radius: 10px;
+        position: relative;
+    }
+    #second-section #ss-body #right-side #color-picker #inner-circle{
+        margin-top: -8px;
+        margin-left: 40px;
+    }
+    #second-section #ss-body #right-side #color-collect{
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        justify-items: center;
+    }
+    #second-section #ss-body #right-side #three-color-container {
+        width: 62%;
+        height: 6vh;
+        margin-top: 40px;
+    }
+    #second-section #ss-body #right-side #explore-collection h1{
+        font-size: 4vw;
+    }
+    #second-section #ss-body #right-side #explore-collection p{
+        font-size: 4vw;
+    }
+    #second-section #ss-body #right-side #explore-collection a{
+        font-size: inherit;
+    }
+    /* third-section */
+    #third-section #ts-body {
+        position: relative;
+    }
+    #third-section #ts-body #left-side {
+        width: 100%;
+        position: absolute;
+    }
+    #third-section #ts-body #left-side img{
+        width: 125px;
+    }
+    #third-section #ts-body #right-side h1 {
+        font-size: 300%;
+        line-height: 2.8rem;
+        margin: 0 auto;
+    }
+    #third-section #ts-body #right-side {
+        width: 100%;
+        position: relative;
+        top: 20px;
+    }
+    #third-section #ts-body #right-side #bluetooth-icon{
+        border: none;
+    }
+    #third-section #ts-body #right-side #bluetooth-icon i {
+        border: none;
+    }
+    #third-section #ts-body #right-side #microphone-icon{
+        border: none;
+    }
+    #third-section #ts-body #right-side #microphone-icon i {
+        border: none;
+    }
+    /* fourth-section */
+    #fourth-section #fs-body #fs-top h1 {
+        margin: 0 auto;
+    }
+    #fourth-section #fs-body #fs-top #pointer {
+        display: none;
+    }
+    #fourth-section #fs-body #fs-middle {
+        flex-direction: column;
+    }
+    #fourth-section #fs-body #fs-middle #buy-headphone {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    #fourth-section #fs-body #fs-middle #buy-headphone #headphone-img img {
+        width: 100%;
+    }
+    #fourth-section #fs-body #fs-middle #buy-headphone #headphone-img #cart {
+       left: 95%;
+    }
+    #fourth-section #fs-body #fs-middle #buy-headphone h1 {
+        font-size: 3vh
+    }
+    
+    #fourth-section #fs-body #fs-buttom img {
+        display: none;
+    }
+    #fourth-section #fs-body #fs-buttom #contact {
+        display: block;
+        width: 100%;
+    }
+    #fourth-section #fs-body #fs-buttom #contact #snd-contact {
+        width: 80%;
+        margin: 20px auto;
+        padding: 4% 0;;
+    }
+    #fourth-section #fs-body #fs-buttom #contact #snd-mail {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #snd-mail #mail {
+        width: 50%;
+    }
+    #fourth-section #fs-body #fs-buttom #contact #snd-mail #send-btn {
+        padding: 5% 10%;
+        margin-left: -1%;
+        font-size: 9px;
+    }
+    #fourth-section #fs-body #fs-buttom #contact .fa-envelope {
+       padding: 0 20px;
+    }
+}
